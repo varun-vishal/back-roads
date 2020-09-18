@@ -218,7 +218,7 @@ Navbar
   padding: 1rem 2rem;
 }
 
-.navtoggle{
+.nav-toggle{
   background: transparent;
   border: transparent;
   font-size: 1.5rem;
@@ -227,11 +227,11 @@ Navbar
   transition: var(--transition);
 }
 
-.navtoggle:hover{
+.nav-toggle:hover{
   transform: scale(1.2);
 }
 
-.navlink{
+.nav-link{
   display: block;
   padding: 1rem 2rem;
   text-transform: capitalize;
@@ -259,12 +259,12 @@ transition: var(--transition);
   height: 280px;
 }
 
-@media screen and (min-width:90px){
+@media screen and (min-width:780px){
 .navbar{
   padding: 1rem 2rem;
 }
   /* hide toggle button */
-.navtoggle{
+.nav-toggle{
   display: none;
 }
 .navcenter{
@@ -280,11 +280,11 @@ transition: var(--transition);
 .navheader{
   padding: 0;
 }
-.navlink{
+.nav-link{
   padding: 0;
   margin-right: 0.7rem;
 }
-.navlink:hover{
+.nav-link:hover{
   padding: 0;
   color: var(--clr-primary-5);
   background: transparent;
